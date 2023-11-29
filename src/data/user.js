@@ -3,7 +3,7 @@ const INFO = {
 		title: "Wenduo Ji",
 		name: "Wenduo Ji",
 		email: "jacky.ji12345@gmail.com",
-		logo: "../icons/app-icon.png",
+		logo: process.env.PUBLIC_URL + "/icons/app-icon.png",
 	},
 
 	socials: {
@@ -51,7 +51,7 @@ const INFO = {
 				"A Python application that utilizes machine learning RBF Regression to help restore corrupted pixels within an image",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/JackyJi-hub/Corrupt Image Pixel Repair",
 		},
 
         {
@@ -60,7 +60,7 @@ const INFO = {
 				"A Python application employing clustering machine learning techniques to effectively compress images, reducing their overall size.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/JackyJi-hub/Image-Compression/",
 		},
 
         {

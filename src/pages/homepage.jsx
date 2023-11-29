@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
+import 'aos/dist/aos.css';
+import AOS from "aos";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -31,6 +33,9 @@ const Homepage = () => {
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
+        AOS.init({
+            // Global settings for AOS, if needed
+          });
 	}, []);
 
 	useEffect(() => {
@@ -84,7 +89,7 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div style={logoStyle}>
+						<div style={logoStyle} data-aos="zoom-in" data-aos-duration="1000">
 							<Logo width={logoSize} link={false} />
 						</div>
 					</div>
@@ -104,11 +109,11 @@ const Homepage = () => {
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
-										<img
-											src= {process.env.PUBLIC_URL + "/homepage.png"}
-											alt="about"
-											className="homepage-image"
-										/>
+                                            <img
+                                                src= {process.env.PUBLIC_URL + "/homepage.png"}
+                                                alt="about"
+                                                className="homepage-image"
+                                            />
 									</div>
 								</div>
 							</div>
