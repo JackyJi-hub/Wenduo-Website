@@ -2,9 +2,13 @@ import React from "react";
 
 function work_experience_1() {
 	return {
-		date: "January 2024 - April 2024",
-		title: "Ceridian Frontend Developer",
-		description: ["Starting in January of 2024"],
+		date: "January 2024 - Present",
+		title: "Ceridian Dayforce Front-End Developer",
+		description: ["Utilized modern web technologies including HTML, CSS 3, JSON, and modern JavaScript libraries like React and Angular to enhance product experience and functionality",
+        "Developed expertise in SaaS architectures and workloads, contributing to the continuous improvement of the cloud-based HCM (Human Capital Management) software",
+        "Assisted in the implementation of microservices architecture and CI/CD pipelines using Azure DevOps",
+        "Investigated, reported, and resolved product failures, enhancing system reliability and stability by 20%",
+        "Drove the tactical aspects of building UI components and framework infrastructure in tandem with a design system, focusing on usability, consistency, scalability, security, and accessibility"],
 		keywords: [
 			"The Benefits of Cloud Computing",
 			"Tharindu",

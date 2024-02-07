@@ -18,21 +18,21 @@ const INFO = {
 	homepage: {
 		title: "Hello, my name is Wenduo Ji",
 		description:
-			"I'm a third-year undergraduate student studying at the University of Toronto, specializing in Computer Science. I am driven and enthusiastic about expanding my expertise in software development and ready to embrace challenges to strive for growth in my journey within the field!",
+			"I'm a fourth-year undergraduate student studying at the University of Toronto, specializing in Computer Science. I am driven and enthusiastic about expanding my expertise in software development and ready to embrace challenges to strive for growth in my journey within the field!",
 	},
 
 	about: {
 		title: "I'm Wenduo, eager to venture into the world of computer science, where curiosity converges with innovation.",
 		description:
-			"I'm currently a third-year student studying at the University of Toronto specializing in the field of Computer Science and minoring in the field of music and culture. ",
+			"I'm currently a fourth-year student studying at the University of Toronto specializing in the field of Computer Science and minoring in the field of music and culture. ",
         description_2:
-			"To me, software development is more than a craft—it's a gateway to turning abstract ideas into practical solutions for others to benefit from. From an early fascination with technology to now being a third-year computer science student at UofT, my journey has been filled with exciting projects and incredible connections. As I delve deeper into the boundless realm of computer science, my aim is to leverage my skills as a means to unravel endless possibilities and overcome challenges with each new endeavor."
+			"To me, software development is more than a craft—it's a gateway to turning abstract ideas into practical solutions for others to benefit from. From an early fascination with technology to now being a fourth-year computer science student at UofT, my journey has been filled with exciting projects and incredible connections. As I delve deeper into the boundless realm of computer science, my aim is to leverage my skills as a means to unravel endless possibilities and overcome challenges with each new endeavor."
 	},
 
 	works: {
 		title: "My work experiences",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"A chronological collection of my work and internship experiences.",
 	},
 
 	projects: [

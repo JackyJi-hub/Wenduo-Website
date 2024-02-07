@@ -78,6 +78,15 @@ const Skills = () => {
 
                         <div className="work" data-aos="zoom-in" data-aos-duration="500">
 							<img
+								src={process.env.PUBLIC_URL + "/icons/typescript.png"}
+								alt="twitter"
+								className="work-image"
+							/>
+							<div className="work-title">TypeScript</div>
+						</div>
+
+                        <div className="work" data-aos="zoom-in" data-aos-duration="500">
+							<img
 								src={process.env.PUBLIC_URL + "/icons/sql.png"}
 								alt="twitter"
 								className="work-image"
